@@ -1,0 +1,12 @@
+# This file will hold all the knowledge about LLMs in generative AI...
+# Woh credits bharwalena OpenAI ka...
+
+from langchain_openai import OpenAI
+from dotenv import load_dotenv
+
+load_dotenv()
+
+llm = OpenAI(model="gpt-3.5-turbo-instruct")
+
+result = llm.invoke("What's the capital of India?")
+print(result)
