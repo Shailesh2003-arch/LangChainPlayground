@@ -16,3 +16,6 @@ print(loaded_documents)
 # 2) Scanned / Images PDFs -  UnstructuredPDFLoader or AmazonTextractPDF
 # 3) Need layout and Image data - PyMuPDFLoader
 # 4) Want best structure extraction - UnstructuredPDFLoader
+
+# There are also different types of loaders like CSVLoader, DirectoryLoader - which loads PDFs, CSVs and different format of files into the loader.
+# For more check official documentation.
